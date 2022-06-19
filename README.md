@@ -11,6 +11,14 @@ game.
   results on standard output in CSV format.
 - `analyze_cdf.php` - A script to analyze the probability that a particular 
   payout will result in a win.
+- `Stop-Loss Martingale.js` - An "advanced" BC.Game JavaScript file for 
+  implementing a variation on Martingale that resets to the base bet upon
+  reaching a threshold maximum bet amount. The intent of this script was to 
+  avoid a Martingale strategy that's starting out with bets of $0.005 suddenly
+  placing a bet for $81.92 after 14 consecutive losses. In reality, though this
+  can prevent a catastrophic bankruptcy in the short term, limiting the loss 
+  just serves to ensure the player loses money over time and will still
+  eventually become bankrupt.
 
 ## Note about Data
 This repo includes data collected from "Crash" games 4905002 through 4923003,
