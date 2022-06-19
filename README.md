@@ -49,3 +49,23 @@ Feel free to grab your own data. The process followed was:
 11. Eliminate all but the first copy of the "Game ID", "Result", and "Hash" 
     heading. This should only be in the very first row.
 12. Save the file in CSV format.
+
+## Disclaimer
+Author is not responsible for lost winnings. YMMV. Despite these scripts
+indicating that pretty much any payouts > $10 should work long term, I have 
+personally lost about $90 (gained $175, lost $250, lost $15) while writing and
+using these tools to try to make a profit. The problem with trying to model
+something based on luck is that a strategy that seems to work well in the short
+term is terrible long term (local maxima), while many strategies that work well 
+in the long term cause devastating losses in the short term (global maxima).
+Remember that in the end, the house always wins.
+
+If you or someone you love is hooked on gambling, there is help. See:
+https://www.begambleaware.org/
+
+## Tips
+Tips are welcome if you find the data or scripts in this project useful.
+
+```
+Ethereum: 0x3143C8376E101BBf027246d1D702bAe46426e513
+```
